@@ -429,6 +429,13 @@ nav .menu-full a::after {
   }
 }
 
+@media screen and (max-width: 575.98px) {
+  .loading h1 {
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;
+  }
+}
+
 #services {
   min-height: 100vh;
 }
@@ -564,6 +571,9 @@ nav .menu-full a::after {
 }
 
 @media screen and (max-width: 767.98px) {
+  .services-head h2 {
+    margin-top: 6rem;
+  }
   .s-item:nth-child(3) {
     margin: 0 auto;
   }
@@ -586,7 +596,7 @@ nav .menu-full a::after {
 
 @media screen and (max-width: 575.98px) {
   .services-head h2 {
-    margin-left: 4rem;
+    margin: 9rem 0 0 4rem;
   }
   .services-head h2::before {
     content: "";
